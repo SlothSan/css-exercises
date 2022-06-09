@@ -37,3 +37,32 @@ body {
   justify-content: space-between;
   padding: 16px;
 }
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
